@@ -1,7 +1,7 @@
-from SonClass import SonClass
+from EmployeeClass import EmployeeClass
 
-s1 = SonClass()  # Object of Son class
-s1.fathername = "Mark"
-s1.mothername = "Sonia"
-s1.printFamilyMember()
-s1.show_parent()
+s1 = EmployeeClass()  # Object of Son class
+s1.ceoName = "Muhammad Asher Ansari"
+s1.managerName= "Muhammad Muzammil Ansari"
+s1.printCompany()
+s1.showCompanyEmployees()
